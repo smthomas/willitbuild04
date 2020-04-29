@@ -1,0 +1,16 @@
+uuid: 693f2eb1-a88a-4f5e-bc78-a6638c261b4b
+langcode: en
+status: true
+dependencies: {  }
+id: gatsby_cloud_staging_
+label: 'Gatsby Cloud (staging)'
+weight: '0'
+provider: null
+plugin: generic
+settings:
+  id: generic
+  label: null
+  provider: build_hooks
+  build_hook_url: 'https://webhook.staging.gtsb.io/hooks/benchmarks/publish/drupal/4096/231ac02b-f1d7-4a42-a59a-dcf038a309f5'
+url: 'https://gatsbyjs.com'
+deployment_strategy: entitysave
